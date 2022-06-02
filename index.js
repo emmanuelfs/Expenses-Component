@@ -3,7 +3,7 @@ let dayValue;
 printDays();
 
 async function fetchData() {
-    let response = await fetch('./data.json');
+    let response = await fetch('./Expenses-Component/data.json');
     let data = await response.json();
     return data;
 }
